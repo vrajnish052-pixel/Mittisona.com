@@ -331,3 +331,112 @@ Mitti Sona – Har Mitti Ko Banaye Sona, Har Kisan Ko De Behtar Fasal
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mitti Sona Store</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f5f5f5;
+text-align:center;
+}
+
+.header{
+background:green;
+color:white;
+padding:15px;
+font-size:24px;
+}
+
+.product{
+background:white;
+width:300px;
+margin:20px auto;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+.product img{
+width:100%;
+border-radius:10px;
+}
+
+button{
+background:green;
+color:white;
+border:none;
+padding:10px;
+margin-top:10px;
+width:100%;
+font-size:16px;
+}
+
+form{
+background:white;
+width:300px;
+margin:20px auto;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+MITTI SONA - Vermi Compost Store
+</div>
+
+<div class="product">
+
+<img src="https://i.imgur.com/Z7AzH2c.jpg">
+
+<h3>Vermi Compost</h3>
+
+<p>Price: ₹200 / Bag</p>
+
+<button onclick="addToCart()">Add to Cart 🛒</button>
+
+</div>
+
+<h2>Place Order</h2>
+
+<form action="https://formsubmit.co/rrajnishvishwakarma@gmail.com" method="POST">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="tel" name="Phone" placeholder="Mobile Number" required>
+
+<input type="text" name="Address" placeholder="Address" required>
+
+<input type="text" name="Product" value="Vermi Compost">
+
+<input type="number" name="Quantity" placeholder="Quantity">
+
+<button type="submit">Place Order</button>
+
+</form>
+
+<script>
+
+function addToCart(){
+alert("Product Added to Cart");
+}
+
+</script>
+
+</body>
+</html>
